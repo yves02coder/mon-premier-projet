@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color: #710c5b70;">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="javasript.css">
+
+<header div class="container1">
+<h1>essayons la magie</h1>
+
+<p><!--bouton clique-->
+<button onclick="myMove()">Click Me</button> 
+</p>
+
+
+<div id ="myContainer"><!--declaration des conteneurs-->
+    <div id ="myAnimation"></div>
+</div>
+<style>
+#myContainer
+{
+ width: 302px;
+  height: 301px;
+  position: relative;
+  background: yellow;
+}
+#myAnimation
+ {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: red;
+}
+
+</style>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("myAnimation");   
+  var pos = 0;
+  var id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 250) {
+      clearInterval(id);
+    } else {
+      pos++; 
+      elem.style.top = pos + 'px'; 
+      elem.style.left = pos + 'px'; 
+    }
+  }
+}
+</script>
+</div>
+</header>
+<section style="background-color: gray;padding: 100px;">
+	<h2>heheheh</h2>
+	<p>fgfgfgf</p>
+</section>
+
+</body>
+<html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="coffee.css">
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+</head>
+<body>
+	<p>
+		<!--permet au survol de la souris de changer de couleur--><a href="hover">hover over me</a> 
+	</p>
+
+<h1>A Web Page</h1>
+<p id="demo">A Paragraph</p>
+<button type="button" onclick="myFunction()">Try it</button>
+<p class="box">Content in the box in my HTML page.</p><!--ici nous avons la class box-->
+    <p>This paragraph contains a link:
+  <a href="#">This link will turn red while you click on it.</a>
+  The paragraph will get a gray background while you click on it or the link.
+</p>
+<form>
+  <label for="my-button">My button: </label>
+  <button id="my-button" type="button">Try Clicking Me or My Label!</button><!--creation d'un bouton qui change de couleur
+  quant on clic dessus-->
+ <!--elle tranforme en bouton tout les elements avec a,link
+ ,href:link:visited--> <a href="https://example.com">External link</a><br>
+<a href="#">Internal target link</a><br>
+<a>Placeholder link (won't get styled)</a>
+</form>
+<!--<div><--creation de case a cocher-->
+ <!--<input type="radio" name="my-input" id="yes">
+  <label for="yes">Yes</label>
+
+  <input type="radio" name="my-input" id="no">
+  <label for="no">No</label>
+</div>
+
+<--<div>
+  <input type="checkbox" name="my-checkbox" id="opt-in">
+  <label for="opt-in">Check me!</label>
+</div>
+
+<select name="my-select" id="fruit">
+  <option value="opt1">Apples</option>
+  <option value="opt2">Grapes</option>
+  <option value="opt3">Pears</option>
+</select>-->
+</body>
+</html>

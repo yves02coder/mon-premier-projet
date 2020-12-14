@@ -1,0 +1,13 @@
+.container
+{
+	border: 1px solid black;
+}
+#carouselExampleIndicators
+{
+	border: 1px solid black;
+	padding:auto;
+	
+}
+$('.carousel').carousel({
+  interval: 2000
+})

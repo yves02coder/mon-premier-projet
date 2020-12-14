@@ -1,0 +1,101 @@
+html
+{
+	background-color: skyblue;
+	border:15px double yellow;
+}
+body
+{
+	background-color: 
+	margin:auto;
+text-align: all;
+overflow: scroll;
+}
+.header
+{
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+
+	padding: 70px;
+	outline: 10px solid linen;
+	outline-offset: 10px;
+	background-color: skyblue;
+	margin:auto;
+	text-align: center;
+	overflow: auto;
+
+}
+.section
+{
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	border: 1px solid black;
+	padding: 70px;
+	outline: 10px solid linen;
+	outline-offset: 10px;
+	background-color: skyblue;
+	margin: auto;
+	text-align: center;
+	overflow: auto;
+}
+.aside
+{
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	border: 1px solid black;
+	padding: 70px;
+	outline: 10px solid linen;
+	outline-offset: 10px;
+	background-color: skyblue;
+	margin:auto;
+	text-align: center;
+	overflow: auto;
+
+}
+.article
+{
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	border:1px solid black;
+	padding: 70px;
+	outline: 10px solid linen;
+	outline-offset: 10px;
+	background-color: skyblue;
+	margin:auto;
+	text-align: center;
+	overflow: auto;
+
+}
+.Aimons
+{
+	padding: 20px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 70px;
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	outline: 10px solid linen;
+	outline-offset: 10px;
+	background-color: skyblue;
+	margin:auto;
+	overflow: auto;
+}
+
+.↑
+{background-color: yellow;
+	border-radius: 20px;
+}
+#button
+{width: 70px;
+	height: 80px;
+	color: red;
+	cursor: auto;
+}
+.row
+{
+	padding: 20px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 70px;
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	outline: 10px solid linen;
+	outline-offset: 10px;
+	background-color: skyblue;
+	margin:auto;
+	overflow: auto;
+	flex-direction: flex-grow;
+}

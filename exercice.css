@@ -1,0 +1,14 @@
+body
+{
+	background-color: skyblue;
+}
+div header
+{
+	display: none;
+	justify-content: space-between;
+	justify-content: space-between;
+	margin:100%;
+	border: 1px solid black;
+	font-size: 25px;
+	padding: 100%;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+	<meta name="viewport"content="width=device-width;initial-scale=1">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="input.css">
+	<title></title>
+</head>
+<body>
+
+	<h1 style="color:red;">merci de remplir les champs:</h1>
+	<div class="form-group">
+  <label for="username" style="color:white;">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd" style="color:white;">Password:</label><br>
+  <input type="password" id="pwd" name="pwd">
+  <input type="submit">
+  <input type="reset">
+</div>
+<h1 style="color:red;">merci il ne reste plus que:</h1>
+<div class="form-group">
+	<label for="fname" style="color:green;font-size: 15px">First name:</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+  <label for="lname" style="color:green;font-size: 15px">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male" style="color:green;font-size: 15px">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female" style="color:green;font-size: 15px">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other" style="color:green;font-size: 15px">Other</label>
+</div>
+<h1 style="color:red;">precisons tout ca.</h1>
+<div class="form-group2">
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1" style="color:skyblue;font-size: 15px"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2" style="color:skyblue;font-size: 15px"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3" style="color:green;font-size: 15px"> I have a boat</label>
+</div>
+<h1 style="color:red;"font-size: 15px>merci et a bientot.</h1>
+<div class="form-group1">
+  <label for="datemax" style="color:skyblue;font-size: 15px">Enter a date:</label>
+  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+  <label for="datemin" style="color:green;font-size: 15px">Enter a date:</label>
+  <input type="date" id="datemin" name="datemin" min="2000-01-02">
+</div>
+<h1 style="color:skyblue;font-size: 15px">donner un nombre</h1>
+<div class="form-group">
+  <label for="quantity" style="color:skyblue;font-size: 15px">Quantity:</label>
+  <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30">
+
+</div>
+
+</body>
+</html>

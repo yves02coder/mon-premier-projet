@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	Entrez votre nom:
+	<input type="text" id="fname"><!--permet de saisir son nom-->
+
+<script>
+document.getElementById("fname").addEventListener("change", myFunction);
+
+function myFunction() {
+  var x = document.getElementById("fname");/*transforme le saisi en maj*/
+  x.value = x.value.toUpperCase();
+}
+
+</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="coffee.css">
+	<title>try js</title>
+	<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";/*le paragraphe change*/
+}
+</script>
+<p id="demo"></p> <!--fait appel a js-->
+<script>
+document.getElementById("demo").innerHTML = "Hello world.";/*affiche hello yves*/
+</script>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+...
+  <ul class="navbar-nav">
+    <li><a href="#section1">Section 1</a></li>
+    ...
+</nav>
+
+<!-- Section 1 -->
+<div id="section1">
+  <h1>Section 1</h1>
+  <p>Try to scroll this page and look at the navigation bar while scrolling!</p>
+</div>
+...
+
+
+<!--<button onclick =" myFunction()">clic </button>-->
+<!--<script>
+	function myFunction (){
+  document.getElementById("myDIV")object.style.animationTimingFunction = "linear"
+}
+</script>-->
+
+<div id="myDIV"></div>
+
+</body>
+
+
+<h1>HELLO WORLD!</h1>
+</style>
+</head>
+<body>
+
+<h2>Clickable Dropdown</h2>
+<p>Click on the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button id="myBtn" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<script>
+// Get the button, and when the user clicks on it, execute myFunction
+document.getElementById("myBtn").onclick = function() {myFunction()};
+
+/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+</script>
+
+	<!--<button onclick="window.print()">Print this page</button>propose une impression au visiteur-->
+	<!--<button type="button" onclick="myfonction()">tape ici</button><--affiche le deuxième texte-->
+	<!--<p id="demo1"></p>
+	<p id="demo2"></p>
+	<script>
+		function myfonction(){
+		document.getElementById("demo1").innerHTML = "How are you today?.";/*affiche how are you today*/
+		document.getElementById("demo2").innerHTML = "Mister yves.";/*affiche mister yves*/
+	}
+	</script>-->
+
+<!--<p>When you make your choice, a function is triggered which outputs the value of your selected choice.</p>
+
+
+<select id="mySelect" onchange="myFunction()"><--permet de faire un choix dans menu deroulant -->
+ <!-- <option value="10">10</option><--les valeurs a afficher dans les choix-->
+ <!-- <option value="20">20</option>
+  <option value="30">30</option>
+  <option value="40">40</option>
+</select></br>-->
+
+
+</br>Entrez du texte:
+<input type="text" name= "txt" value= "hello" onchange= "myfonction (this.value)"><--demande un saisi de prefait-->
+<p>ensuite cliquez en dehors de la case</p>
+<script>
+function myFunction(val) {
+  alert("The input value has changed. The new value is: " + val);/*une alert qui signale qu'on a attribué une nouvelle valeur*/
+}
+</script>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "You selected: " + x;//permet l'execution du choix
+}
+</script>
+
+</body>
+
+	<!--<h1>A Web Page</h1>
+	<script type="text/javascript">
+		alert("text")/*crai une alerte*/
+	</script>-->
+	<!--<p id="demo">test</p>-->
+<!--<button type="button" onclick="myFunction()">clic ici</button>
+<h1>yes</h1>-->
+<!--<button type="button" onclick="document.write(5 + 6)">Try it</button><--affiche le resultat-->
+
+<p id="demo"></p>
+<script>
+document.getElementById("demo").innerHTML = 6 + 5 ;
+</script>
+<!--<script>
+	window.alert(6 + 5);/*crai une alert avec le resultat 11*/
+</script>-->
+
+</style>
+</head>
+<body>
+
+<!--<h2>Clickable Dropdown</h2>
+<p>Click on the button to open the dropdown menu.</p>
+
+<div class="dropdown">
+  <button id="myBtn" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</div>
+
+<script>
+// Get the button, and when the user clicks on it, execute myFunction
+document.getElementById("myBtn").onclick = function() {myFunction()};
+
+/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+</script>-->
+
+
+</body>
+</html>

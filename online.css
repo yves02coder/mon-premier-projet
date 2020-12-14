@@ -1,0 +1,18 @@
+body
+{
+	background-color:#601c06;
+}
+nav
+{
+	display: block;
+	width: 400px;
+	height: 160px;
+	background: lightgray;
+}
+section
+{
+	display: block;
+	width: 300px;
+	height: 100px;
+	background: #c57c2f;
+}

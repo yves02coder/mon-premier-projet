@@ -1,0 +1,288 @@
+.boite {
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}body
+{
+	background-color: 
+	margin:auto;
+text-align: all;
+overflow: scroll;
+}
+header
+{
+	background-image:  linear-gradient(109.6deg, rgb(175, 35, 35));
+
+	padding: 70px;
+	
+	margin:auto;
+	text-align: center;
+	overflow: auto;
+	border: 2px solid black;
+
+}
+section
+{
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	border: 1px solid black;
+	padding: 70px;
+	height: 10px
+	
+	margin: auto;
+	text-align: center;
+	overflow: auto;
+	border: 2px solid black;
+	overflow: scroll;
+}
+aside
+{
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	border: 1px solid black;
+	padding: 80px;
+	float: left;
+	margin:auto;
+	text-align: center;
+	overflow: auto;
+	border: 2px solid black;
+	width: 50%;
+
+}
+.article
+{
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	border-radius:5px solid black;
+	padding: 70px;
+	
+	margin:auto;
+	text-align: center;
+	overflow: auto;
+	display: flex;
+	border: 2px solid black;
+
+}
+.Aimons
+{
+	padding: 20px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 70px;
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	outline: 10px solid linen;
+	outline-offset: 10px;
+	background-color: skyblue;
+	margin:auto;
+	overflow: auto;
+}
+
+.↑
+{background-color: yellow;
+	border-radius: 20px;
+}
+.c5-btn {
+	background-color: red;
+  transition-duration: 0.4s;
+  border: 2px solid red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.c5-btn
+ { 
+  animation-duration: 4s;
+  animation-name:super bouton; 
+  animation-iteration-count: 2;
+  animation-timing-function: 4s;
+ transition-timing-function: 3s;
+  transform:rotate3d(20deg);
+ transition-duration: 4s;
+ animation-timing-function: ease-in-out;
+}
+
+.c5-btn:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+
+}
+.footer
+{
+	padding: 20px;
+	border:1px solid black;
+	text-align: center;
+	padding: 70px;
+	background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+	
+	margin:auto;
+	overflow: auto;
+	flex-direction: flex-grow;
+}
+html
+{
+	background-color: skyblue;
+	border:15px double black;
+}
+h1 
+{
+	font-size: 80px;
+	color:white;
+	text-align: center;
+	text-shadow: 15px 15px 9px black;
+	text-decoration: underline;
+	animation-name: rotate;
+	 animation-duration: 4s;
+  animation-name:super bouton; 
+  animation-iteration-count: 2;
+  animation-timing-function: 4s;
+ transition-timing-function: 3s;
+  transform:rotate3d(20deg);
+ transition-duration: 4s;
+ animation-timing-function: ease-in-out;
+}
+.clic @keyframes clic ici {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+.hover{
+	background-color: green;
+	animation-name: rotate;
+}
+.container-rotation
+{
+	animation-name: rotate;
+	 animation-duration: 4s;
+  animation-name:super bouton; 
+  animation-iteration-count: 2;
+  animation-timing-function: 4s;
+ transition-timing-function: 3s;
+  transform:rotate3d(20deg);
+ transition-duration: 4s;
+ animation-timing-function: ease-in-out;
+}
+a
+{
+	text-decoration: none;
+}
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+div{	
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-duration: 4s;
+  animation-name: myDiv;
+  animation-iteration-count: 2;
+  
+}
+/*@keyframes myDiv
+{
+	0%{ background-color: red;left: 0px;top:0px; }
+	25%{ background-color: yellow;left: 200px;top: 0px; }
+	50%{background-color: blue;left: 200px;top: 200px;}
+	75%{background-color: red;left: 0px;top: 200px;}
+	100%{background-color: none;left: 0px;top:0px;}
+}*/
+a:link,
+a:visited {
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+a:hover {
+    color:hotpink;/*permet de changer de couleur au survol de souris*/
+    padding: 12px;
+    border: solid;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+}  
+/*.box::before {
+    content: "This should show before the other content."/*ceci fait appel a la class bax*/
+}   
+/*.box::before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    border: 1px solid black;
+}
+a:link { color: blue; }          /* Unvisited links */
+/*a:visited { color: purple; }     /* Visited links */
+/*a:hover { background: yellow; }  /* Hovered links */
+/*a:active { color: red; }         /* Active links */
+
+p:active { background: #eee; }   /* Active paragraphs */
+form :active {
+  color: red;
+}
+
+form button {
+  background: white;/*creation d'un bouton qui change de couleur
+  quant on clic dessus*/
+}
+/* Selects any element that would be matched by :link or :visited */
+/*a:any-link {
+  border: 1px solid blue;
+  color: orange;
+}
+
+/* WebKit browsers */
+/*a:-webkit-any-link { /*un encadrement web*/
+  border: 1px solid blue;/*encadre tt ls elements a,area,link,href:link:visited;*/
+  color: orange;*/
+}
+div,/*css case a cocher*/
+select {
+  margin: 8px;
+}
+
+/* Labels for checked inputs */
+input:checked + label {
+  color: red;
+}
+
+/* Radio element, when checked */
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px orange;
+}
+
+/* Checkbox element, when checked */
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px hotpink;
+}
+
+/* Option elements, when selected */
+option:checked {
+  box-shadow: 0 0 0 3px lime;
+  color: red;
+}
+footer
+{
+	float:right;
+	
+	margin-right:none;
+	align-content: center
+
+
+
+}

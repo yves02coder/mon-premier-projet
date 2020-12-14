@@ -1,0 +1,20 @@
+body
+{
+	background-image:url('paire4.jpg');
+	display: block;
+	padding-left: 100px;
+
+}
+div
+{
+width: 100px;
+}
+.form-group
+{
+	display: flex;
+	justify-content: space-between;
+	text-align: 
+}
+#icon
+{height: 20px;
+width: 30px;}
